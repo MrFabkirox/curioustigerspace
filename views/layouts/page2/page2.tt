@@ -1,6 +1,13 @@
 
 <!--
-    index
+    Credit goes to the Ruby on Rails team for this page
+    has been heavily based on the default Rails page that is
+    built with a scaffolded application.
+
+    Thanks a lot to them for their work.
+
+    See Ruby on Rails if you want a kickass framework in Ruby:
+    http://www.rubyonrails.org/
 -->
 
 <div id="page">
@@ -117,13 +124,11 @@
 
           <ol>
             <li>
-              <h2>Tune your application</h2>
+              <h2>Page 2</h2>
 
               <p>
-              Your application is configured via a global configuration file,
-              <span class="filepath">config.yml</span> and an "environment" configuration file,
-              <span class="filepath">environments/development.yml</span>. Edit those files if you
-              want to change the settings of your application.
+                First page of the application.<br />
+                <span>You can add some routes to <span class="filepath">lib/curioustigerspace.pm</span>
               </p>
             </li>
 
@@ -135,19 +140,10 @@
               it's just here to help you get started. The template used to
               generate this content is located in
               <span class="filepath">views/index.tt</span>.
-              You can add some routes to <span class="filepath">lib/curioustigerspace.pm</span>.
+              .
               </p>
             </li>
 
-            <li>
-              <h2>Enjoy web development again</h2>
-
-              <p>
-              Once you've made your changes, restart your standalone server
-              <span class="filepath">(bin/app.psgi)</span> and you're ready
-              to test your web application.
-              </p>
-            </li>
 
           </ol>
         </div>

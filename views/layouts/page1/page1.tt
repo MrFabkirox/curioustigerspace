@@ -1,6 +1,13 @@
 
 <!--
-    index
+    Credit goes to the Ruby on Rails team for this page
+    has been heavily based on the default Rails page that is
+    built with a scaffolded application.
+
+    Thanks a lot to them for their work.
+
+    See Ruby on Rails if you want a kickass framework in Ruby:
+    http://www.rubyonrails.org/
 -->
 
 <div id="page">
@@ -117,37 +124,40 @@
 
           <ol>
             <li>
-              <h2>Tune your application</h2>
+              <h2>Key words.</h2>
 
               <p>
-              Your application is configured via a global configuration file,
-              <span class="filepath">config.yml</span> and an "environment" configuration file,
-              <span class="filepath">environments/development.yml</span>. Edit those files if you
-              want to change the settings of your application.
+                On this page, a summary and description of some notions encountered.<br />
               </p>
             </li>
 
             <li>
-              <h2>Add your own routes</h2>
+              <h2>HTML quote</h2>
+
+              <p>
+              To have some HTML code displayed the &ltpre&gt tag and the &ltcode&gt will be necessary, with the use of the HTML entities, for exemple:
+                <ul style="list-style-type:none">
+                    <li>& : &amp;amp</li>
+                    <li>> : &amp;lt</li>
+                    <li>< : &amp;gt</li><code>
+                    <li>" : &amp;quot</li>
+                    <li>' : &amp;#039</li></code>
+                </ul>
+              </p>
+    </li>
+
+            <li>
+              <h2>Route regexp, q{}</h2>
 
               <p>
               The default route that displays this page can be removed,
               it's just here to help you get started. The template used to
               generate this content is located in
               <span class="filepath">views/index.tt</span>.
-              You can add some routes to <span class="filepath">lib/curioustigerspace.pm</span>.
+              .
               </p>
             </li>
 
-            <li>
-              <h2>Enjoy web development again</h2>
-
-              <p>
-              Once you've made your changes, restart your standalone server
-              <span class="filepath">(bin/app.psgi)</span> and you're ready
-              to test your web application.
-              </p>
-            </li>
 
           </ol>
         </div>

@@ -9,9 +9,9 @@ $eumm_version =~ s/_//;
 
 WriteMakefile(
     NAME                => 'curioustigerspace',
-    AUTHOR              => q{YOUR NAME <youremail@example.com>},
+    AUTHOR              => 'fabrice.esope@gmail.com',
     VERSION_FROM        => 'lib/curioustigerspace.pm',
-    ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
+    ABSTRACT            => 'curioustigerspace APPLICATION ABSTRACT',
     ($eumm_version >= 6.3001
       ? ('LICENSE'=> 'perl')
       : ()),
