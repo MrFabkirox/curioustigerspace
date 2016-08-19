@@ -1,13 +1,6 @@
 
 <!--
-    Credit goes to the Ruby on Rails team for this page
-    has been heavily based on the default Rails page that is
-    built with a scaffolded application.
-
-    Thanks a lot to them for their work.
-
-    See Ruby on Rails if you want a kickass framework in Ruby:
-    http://www.rubyonrails.org/
+    page2
 -->
 
 <div id="page">
@@ -72,7 +65,7 @@
         </div>
 
         <div id="getting-started">
-          <h1>Getting started</h1>
+          <h1>page2</h1>
           <h2>Here&rsquo;s how to get dancing:</h2>
 
           <h3><a href="#" id="about_env_link">About your application's environment</a></h3>

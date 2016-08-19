@@ -1,13 +1,6 @@
 
 <!--
-    Credit goes to the Ruby on Rails team for this page
-    has been heavily based on the default Rails page that is
-    built with a scaffolded application.
-
-    Thanks a lot to them for their work.
-
-    See Ruby on Rails if you want a kickass framework in Ruby:
-    http://www.rubyonrails.org/
+    page1
 -->
 
 <div id="page">
@@ -32,9 +25,8 @@
               <li><a
               href="https://metacpan.org/pod/Dancer2::Manual">Introduction</a></li>
               <li><a href="https://metacpan.org/pod/Dancer2::Cookbook">Cookbook</a></li>
-              <li><a
-              href="https://metacpan.org/pod/Dancer2::Tutorial"
-              title="a tutorial to build a small blog engine with Dancer">Tutorial</a></li>
+              <li><a href="https://metacpan.org/pod/Dancer2::Tutorial" 
+                        title="small blog engine with Dancer">Tutorial</a></li>
             </ul>
           </li>
 
@@ -72,8 +64,8 @@
         </div>
 
         <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get dancing:</h2>
+          <h1>Key words.</h1>
+          <h2>Let&rsquo;s talk terms</h2>
 
           <h3><a href="#" id="about_env_link">About your application's environment</a></h3>
 
@@ -124,7 +116,7 @@
 
           <ol>
             <li>
-              <h2>Key words.</h2>
+              <h2>.</h2>
 
               <p>
                 On this page, a summary and description of some notions encountered.<br />
@@ -136,25 +128,30 @@
 
               <p>
               To have some HTML code displayed the &ltpre&gt tag and the &ltcode&gt will be necessary, with the use of the HTML entities, for exemple:
-                <ul style="list-style-type:none">
+                <ul style="list-style-type:none"><code>
                     <li>& : &amp;amp</li>
                     <li>> : &amp;lt</li>
-                    <li>< : &amp;gt</li><code>
+                    <li>< : &amp;gt</li>
                     <li>" : &amp;quot</li>
-                    <li>' : &amp;#039</li></code>
+                    <li>' : &amp;#039</li>
+                    <li>' : &amp;rsquo</li></code>
                 </ul>
+                The use of &ltpre&gt and &gtcode&gt tag are seen also in such situation.
               </p>
     </li>
 
             <li>
-              <h2>Route regexp, q{}</h2>
+              <h2>Route regexp, qr{}</h2>
 
               <p>
-              The default route that displays this page can be removed,
-              it's just here to help you get started. The template used to
-              generate this content is located in
-              <span class="filepath">views/index.tt</span>.
-              .
+              Regular expressions can be used in the routes of the WebApp in WebAppName.pm.
+              This page can be called tapping the url matching the following regexp:
+
+              <div class="codewriting">
+                <div class="codewritinginside>
+                    some code
+                </div>
+              </div>
               </p>
             </li>
 
